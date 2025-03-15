@@ -1,0 +1,7 @@
+-- Open Data RDW: Gekentekende_voertuigen --
+
+https://opendata.rdw.nl/Voertuigen/Open-Data-RDW-Gekentekende_voertuigen/m9d7-ebf2/about_data
+
+https://dev.socrata.com/foundry/opendata.rdw.nl/m9d7-ebf2
+
+Endpoint used for within the policy management context: https://opendata.rdw.nl/resource/m9d7-ebf2.json?kenteken={LICENSEPLATE}

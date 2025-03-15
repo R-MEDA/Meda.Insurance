@@ -1,0 +1,36 @@
+### For applying for a policy, (Assume customer exist in the customer management microservice) Licenseplate can be changed -> this one works R812GS
+POST http://localhost:5020/applications/apply HTTP/1.1
+content-type: application/json
+
+{
+    "licensePlate" : "R812GS",
+    "CustomerId" : "01958c03-e252-7933-8cb8-a03bcf16ca27" 
+}
+
+
+### For seeing all applications
+GET http://localhost:5020/applications HTTP/1.1
+
+
+### For seeing an application
+GET http://localhost:5020/applications/{GUID} HTTP/1.1
+
+
+### For approving an application
+POST http://localhost:5020/applications/process HTTP/1.1
+content-type: application/json
+
+{
+    "applicationId" : "01959925-3d40-79cb-a39d-71f32a431988",
+    "ApplicationDecision" : 2
+}
+
+
+### For decling an application
+POST http://localhost:5020/applications/process HTTP/1.1
+content-type: application/json
+
+{
+    "applicationId" : "01959412-dd57-708c-b00e-18661a22d99c",
+    "ApplicationDecision" : 1
+}
