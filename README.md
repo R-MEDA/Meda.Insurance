@@ -1,5 +1,3 @@
-Certainly! Here's your updated README with the missing section on testing the endpoints included:
-
 ---
 
 # Project Setup Guide
@@ -46,8 +44,7 @@ If you want to quickly test the application without a real database, you can use
 
 1. **Navigate to the Program.cs File**  
    Go to the `Program.cs` file where you can swap out the actual database with the in-memory mock implementations. See image below:
-   <img width="1036" alt="Pasted Graphic 26" src="https://github.com/user-attachments/assets/73cdec36-c3d5-487e-8128-222d76024097" />
-
+   <img width="1288" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/37e490d3-81f7-434e-ab2c-19ab6476d00f" />
 ---
 
 ## Configuring the Application
