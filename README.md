@@ -44,15 +44,16 @@ If you want to quickly test the application without a real database, you can use
 
 1. **Navigate to the Program.cs File**  
    Go to the `Program.cs` file where you can swap out the actual database with the in-memory mock implementations. See image below:
-   <img width="1288" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/37e490d3-81f7-434e-ab2c-19ab6476d00f" />
+   <img width="1036" alt="Pasted Graphic 26" src="https://github.com/user-attachments/assets/8df4dd88-cb1a-46f7-a287-945acbba89e5" />
+   
 ---
 
 ## Configuring the Application
 
-### appsettings.Development
+### appsettings.Development (only if you use the Docker MS_SQL_SERVER)
 
 Ensure that your `appsettings.Development.json` contains the necessary configurations for the environment. This file should be set up correctly for either using the SQL Server Docker container or mocking the database.
-<img width="1036" alt="Pasted Graphic 26" src="https://github.com/user-attachments/assets/8df4dd88-cb1a-46f7-a287-945acbba89e5" />
+<img width="1288" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/37e490d3-81f7-434e-ab2c-19ab6476d00f" />
 
 ---
 
