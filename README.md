@@ -52,7 +52,7 @@ If you want to quickly test the application without a real database, you can use
 ### appsettings.Development
 
 Ensure that your `appsettings.Development.json` contains the necessary configurations for the environment. This file should be set up correctly for either using the SQL Server Docker container or mocking the database.
-<img width="1288" alt="Pasted Graphic 24" src="https://github.com/user-attachments/assets/c5bdec6d-61bf-4e41-9949-2042837a26c8" />
+<img width="1036" alt="Pasted Graphic 26" src="https://github.com/user-attachments/assets/8df4dd88-cb1a-46f7-a287-945acbba89e5" />
 
 ---
 
