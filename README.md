@@ -104,13 +104,3 @@ To run the application:
    ```
 
 This will launch the application, and you can begin testing or interacting with the APIs.
-
----
-
-## Additional Notes
-
-- You can switch between using the Docker container or the mock database by modifying the configurations in `Program.cs`.
-- The database credentials and configurations can be adjusted as needed in `appsettings.Development.json`.
-- If you encounter issues with the SQL Server Docker container, ensure that Docker is running and your machine has enough resources allocated to run the container.
-
----
